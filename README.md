@@ -14,4 +14,6 @@
 没什么可以说的了，觉得有用的可以点个star支持我一下，谢谢大家！
 
 # 安装脚本
-```apk add wget ; wget https://raw.githubusercontent.com/mingge9527/XrayR-For-Alpine/main/xrayr.sh ; chmod 777 xrayr.sh ; ./xrayr.sh```
+```shell script
+apk add wget ; wget https://raw.githubusercontent.com/mingge9527/XrayR-For-Alpine/main/xrayr.sh ; chmod 777 xrayr.sh ; ./xrayr.sh
+```
