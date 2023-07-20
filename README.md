@@ -3,6 +3,8 @@
 
 这是一个适用于arm64架构的Alpine系统的XrayR一键脚本
 
+安装目录位于 /etc/XrayR
+
 控制程序启动关闭采用Screen
 
 运行脚本需要以root用户运行
