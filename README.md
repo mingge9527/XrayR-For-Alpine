@@ -17,3 +17,7 @@
 ```shell script
 apk add wget ; wget https://raw.githubusercontent.com/mingge9527/XrayR-For-Alpine/main/xrayr.sh ; chmod 777 xrayr.sh ; ./xrayr.sh
 ```
+下次运行即可直接输入
+```shell script
+./xrayr.sh
+```
