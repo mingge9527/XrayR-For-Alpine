@@ -1,6 +1,4 @@
 # XrayR-For-Alpine
-你好！欢迎你来到这里！
-
 这是一个适用于arm64架构的Alpine系统的XrayR一键脚本
 
 安装目录位于 /etc/XrayR
@@ -12,8 +10,6 @@
 脚本是用ChatGPT写的，自己稍微改了一些
 
 写这个脚本是因为白嫖的小机只有Alpine
-
-没什么可以说的了，觉得有用的可以点个star，谢谢大家！
 
 # 安装脚本
 ```shell script
