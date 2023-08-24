@@ -13,9 +13,9 @@
 
 # 安装脚本
 ```shell script
-apk add wget ; wget https://raw.githubusercontent.com/mingge9527/XrayR-For-Alpine/main/xrayr.sh ; chmod 777 xrayr.sh ; ./xrayr.sh
+apk add wget ; wget -O /usr/bin/xrayr https://raw.githubusercontent.com/mingge9527/XrayR-For-Alpine/main/xrayr.sh ; chmod 777 /usr/bin/xrayr ; xrayr
 ```
 下次运行即可直接输入
 ```shell script
-./xrayr.sh
+xrayr
 ```
