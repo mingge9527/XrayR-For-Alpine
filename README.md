@@ -19,3 +19,7 @@ apk add wget ; wget -O /usr/bin/xrayr https://raw.githubusercontent.com/mingge95
 ```shell script
 xrayr
 ```
+
+# 画个大饼
+
+基于OpenRC的系统级保活版，正在常熟实现
