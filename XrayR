@@ -1,0 +1,23 @@
+#!/sbin/openrc-run
+
+name="XrayR"
+description="XrayR Service"
+command="/etc/XrayR/XrayR"
+command_args=""
+command_background="yes"
+pidfile="/run/${RC_SVCNAME}.pid"
+start_stop_daemon_args="--chdir /etc/XrayR/ --user=root --group=root -- ${command}"
+output_log="/var/log/${RC_SVCNAME}.log"
+error_log="/var/log/${RC_SVCNAME}.log"
+
+depend() {
+  need net
+}
+
+start_pre() {
+  checkpath --directory /var/log/
+}
+
+stopas="term kill"
+respawn="yes"
+command_background="yes"
