@@ -23,5 +23,7 @@ xrayr
 # 新分支
 
 基于OpenRC的系统级保活版，已经成功实现
-https://github.com/mingge9527/XrayR-For-Alpine/openrc
+
+https://github.com/mingge9527/XrayR-For-Alpine/tree/openrc
+
 欢迎使用
