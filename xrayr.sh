@@ -66,14 +66,6 @@ install_xrayr() {
         exit 1
     fi
     
-    # 获取Alpine系统版本
-    alpine_version=$(awk -F= '/^VERSION_ID/ {gsub(/"/, "", $2); print $2}' /etc/os-release)
-
-    # 检查系统版本是否低于3.5
-    if [ "$alpine_version" \< "3.5" ]; then
-        echo "你的系统版本过低，请升级至Alpine 3.5或更高版本"
-        exit 1
-    fi
 
     # 检查系统架构是否为amd64
     if [ "$(uname -m)" != "x86_64" ]; then
