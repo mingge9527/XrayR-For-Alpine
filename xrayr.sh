@@ -66,7 +66,6 @@ install_xrayr() {
         exit 1
     fi
     
-
     # 检查系统架构是否为amd64
     if [ "$(uname -m)" != "x86_64" ]; then
         echo "该脚本暂只支持amd64架构"
