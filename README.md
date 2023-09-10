@@ -1,5 +1,5 @@
 # XrayR-For-Alpine
-这是一个适用于arm64架构的Alpine系统的XrayR一键脚本
+这是一个适用于amd64架构的Alpine系统的XrayR一键脚本
 
 安装目录位于 /etc/XrayR
 
@@ -20,6 +20,8 @@ apk add wget ; wget -O /usr/bin/xrayr https://raw.githubusercontent.com/mingge95
 xrayr
 ```
 
-# 画个大饼
+# 新分支
 
-基于OpenRC的系统级保活版，正在尝试实现
+基于OpenRC的系统级保活版，已经成功实现
+https://github.com/mingge9527/XrayR-For-Alpine/openrc
+欢迎使用
