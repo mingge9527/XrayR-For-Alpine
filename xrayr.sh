@@ -2,7 +2,6 @@
 
 # 发送欢迎消息
 echo "XrayR一键安装脚本"
-echo "仅支持Alpine 3.5+ amd64架构"
 echo "安装目录位于 /etc/XrayR"
 echo "进程保活采用OpenRC方式"
 echo "请选择:"
