@@ -7,8 +7,8 @@
 
 运行脚本需要以root用户运行
 
-# TODO
-一键配置config.yml
+# NEW
+快速配置config.yml已经实现，若有问题可以issues进行反馈
 
 # 安装脚本
 ```shell script
