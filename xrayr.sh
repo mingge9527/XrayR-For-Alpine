@@ -151,6 +151,11 @@ case "$option" in
             exit 1
         fi
         
+        echo "请注意，此为实验性功能，若出问题请手动修改配置文件"
+        echo ""
+        echo "面板类型默认设置为V2board，自动进行下一步"
+        echo ""
+        
         # 设定机场地址
         echo "设定机场地址"
         echo ""
@@ -160,6 +165,7 @@ case "$option" in
         echo "您设定的机场网址为 ${apihost}"
         echo "---------------------------"
         echo ""
+        
         
         # 设定API Key
         echo "设定与面板对接的API Key"
@@ -210,7 +216,8 @@ case "$option" in
 
         # 写入配置文件
         echo "正在尝试写入配置文件..."
-        sed -i "s/ApiHost:.*/ApiHost: ${apihost}/g" /etc/XrayR/config.yml
+        sed -i "s/PanelType:.*/PanelType: \"V2board\"/g" /etc/XrayR/config.yml
+        sed -i "s,ApiHost:.*,ApiHost: \"${apihost}\",g" /etc/XrayR/config.yml
         sed -i "s/ApiKey:.*/ApiKey: ${apikey}/g" /etc/XrayR/config.yml
         sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
         sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
