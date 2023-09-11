@@ -24,6 +24,6 @@ apk add wget ; wget -O /usr/bin/xrayr https://raw.githubusercontent.com/mingge95
 xrayr
 ```
 
-# 说明
-本项目基于 https://github.com/XrayR-project/XrayR 二次开发，特别鸣谢
-
+本项目基于
+https://github.com/XrayR-project/XrayR
+二次开发
